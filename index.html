@@ -1,14 +1,38 @@
-<!DOCTYPE html>
+<!doctype html> <!--Remember to start every HTML file with this declaration-->
 <html>
 	<head>
-		<title>Dave's Page</title>
+		<link rel="stylesheet" href="style.css">
+		<title>About Me</title>
 	</head>
 	<body>
-		<h1>Hello, World!</h1>
-		<p>
-			<i>I'm learning to</i>
-			<br>
-			<b>code</b>
-		</p>
+		<header>
+			<div style="float:left;">
+				<h1>Dave Martin</h1>
+			</div>
+			<div style="float:right;">
+				<a href="https://www.linkedin.com/in/davidljmartin/" target="_blank">
+					<img src="./images/linkedin_icon.png" height="50" alt="The logo for LinkedIn">
+				</a>
+			</div>
+		</header>
+		<main style="clear:both;">
+			<a href="./images/headshot.png" target="_blank">
+				<img src="./images/headshot.png" style="border-style: solid;" height="250" alt="A close headshot, from the shoulders upwards, taken against a light background"></a>
+			<a href="./images/sextant.jpg" target="_blank">
+				<img src="./images/sextant.jpg" style="border-style: solid;" height="250" alt="A portrait photo showing a sextant being used for marine navigation"></a>
+			<a href="./images/bridge.jpg" target="_blank">
+				<img src="./images/bridge.jpg" style="border-style: solid;" height="250" alt="A portrait photo showing a large bridge in the background and the deck of a vessel in the foreground"></a>
+			<p>Former seafarer with a first class honours degree and several years of experience ashore in commercial research roles</p>
+			<p>Interested in <strong>maritime data</strong>, <strong>renewable energy</strong> and <strong>emerging technology</strong></p>
+			<h2>My Experience</h2>
+			<ul>
+				<li>Navigation Officer</li>
+				<li>Maritime Data Researcher</li>
+				<li>Data Analyst</li>
+			</ul>
+		</main>
+		<footer>
+			<h2><a href="portfolio.html"><span class="link">Click here</span></a> to see my portfolio</h2>
+		</footer>
 	</body>
 </html>
